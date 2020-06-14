@@ -1,11 +1,10 @@
-## My Project
+## KDA Metrics Dashboard - CloudFormation Template
 
-TODO: Fill this README out!
+This repository contains a CloudFormation template that you can customize to deploy a sample metrics dashboard for your [Kinesis Data Analytics for Apache Flink](https://docs.aws.amazon.com/kinesisanalytics/latest/java/what-is.html) application.
 
-Be sure to:
+Here's a screenshot of the dashboard:
 
-* Change the title in this README
-* Edit your repository description on GitHub
+![Dashboard screenshot](images/metrics_ss.png)
 
 ## Security
 
@@ -13,5 +12,5 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 ## License
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
+This sample is licensed under the MIT-0 License. See the LICENSE file.
 
