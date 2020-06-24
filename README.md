@@ -8,7 +8,7 @@ Here's a screenshot of the dashboard:
 
 Before you deploy the template, please make sure that you enter appropriate values for these parameters:
 
-- ApplicationName: The KDA app to monitor
+- ApplicationName: The KDA app to monitor (this repo comes with a [demo KDA app](demo-apps/README.md))
 - KDARegion: The region where the KDA app is deployed
 - KinesisStreamName: The Kinesis stream name which is configured as input in Kinesis Analytics application (assuming you're reading from a Kinesis stream)
 - KafkaTopicName: The Kafka topic name which is configured as input in Kinesis Analytics application (assuming you're reading from a Kafka topic)
