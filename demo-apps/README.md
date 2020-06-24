@@ -2,7 +2,7 @@
 
 We've included sample Kinesis Analytics for Apache Flink applications (producer and consumer) that you can use to try out the metrics dashboard in this repo. Here's the high level flow:
 
-demo-kinesis-driver (KDA Apache Flink) => Kinesis stream => demo-kda-app (KDA Apache Flink)
+[demo-kinesis-driver](demo-kinesis-driver/README.md) (KDA Apache Flink) => Kinesis stream => [demo-kda-app](demo-kda-app/README.md) (KDA Apache Flink)
 
 ## Steps
 
