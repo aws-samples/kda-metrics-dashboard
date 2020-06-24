@@ -44,6 +44,6 @@ mvn clean compile exec:java \
          -DSHARD_USE_ADAPTIVE_READS="true"
 ```
 
-## Deploying Kinesis Data Analytics for Apache Flink
+## Deploying to Kinesis Data Analytics for Apache Flink
 
 Please refer to the [Getting Started](https://docs.aws.amazon.com/kinesisanalytics/latest/java/getting-started.html) developer guide for information on setting up your AWS account, the AWS CLI, and on deploying an Apache Flink app to Kinesis Data Analytics.

@@ -43,6 +43,6 @@ mvn clean compile exec:java \
          -DKINESIS_STREAM="[YOUR KINESIS STREAM]"
 ```
 
-## Deploying Kinesis Data Analytics for Apache Flink
+## Deploying to Kinesis Data Analytics for Apache Flink
 
-Deploy the Kinesis data driver Flink app (demo-kinesis-driver) to generate data into the above Kinesis stream. Please refer to the [Getting Started](https://docs.aws.amazon.com/kinesisanalytics/latest/java/getting-started.html) developer guide for information on setting up your AWS account, the AWS CLI, and on deploying an Apache Flink app to Kinesis Data Analytics.
+Please refer to the [Getting Started](https://docs.aws.amazon.com/kinesisanalytics/latest/java/getting-started.html) developer guide for information on setting up your AWS account, the AWS CLI, and on deploying an Apache Flink app to Kinesis Data Analytics.
