@@ -19,7 +19,7 @@ package com.amazonaws.services.kinesisanalytics.sources;
 
 import com.amazonaws.services.kinesisanalytics.payloads.EmployeeInfo;
 import com.github.javafaker.Faker;
-import org.apache.flink.streaming.api.functions.source.SourceFunction;
+import org.apache.flink.streaming.api.functions.source.RichParallelSourceFunction;
 import org.apache.flink.streaming.api.watermark.Watermark;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,7 +27,7 @@ import org.slf4j.LoggerFactory;
 import java.text.SimpleDateFormat;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class RandEmployeeInfoSource implements SourceFunction<EmployeeInfo> {
+public class RandEmployeeInfoSource extends RichParallelSourceFunction<EmployeeInfo> {
 
     private static final Logger LOG = LoggerFactory.getLogger(RandEmployeeInfoSource.class);
 
