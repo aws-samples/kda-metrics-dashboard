@@ -37,11 +37,7 @@ Here's the schema for the payload:
 ## Running the app locally
 
 ```
-mvn clean compile exec:java \
-         -Dexec.mainClass="com.amazonaws.services.kinesisanalytics.DemoKDAApp" \
-         -DAWS_REGION="[YOUR REGION]" \
-         -DKINESIS_STREAM="[YOUR KINESIS STREAM]" \
-         -DSHARD_USE_ADAPTIVE_READS="true"
+mvn clean compile exec:java -Dexec.mainClass="com.amazonaws.services.kinesisanalytics.DemoKDAApp" -Dexec.args="--AWS_REGION [YOUR REGION] --KINESIS_STREAM [YOUR KINESIS STREAM] --SHARD_USE_ADAPTIVE_READS true"
 ```
 
 ## Deploying to Kinesis Data Analytics for Apache Flink
