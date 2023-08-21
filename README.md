@@ -1,5 +1,10 @@
 ## KDA Metrics Dashboard - CloudFormation Template
 
+--------
+>  #### 🚨 August 30, 2023: Amazon Kinesis Data Analytics has been renamed to [Amazon Managed Service for Apache Flink](https://aws.amazon.com/managed-service-apache-flink).
+
+--------
+
 This repository contains a CloudFormation template that you can customize to deploy a sample metrics dashboard for your [Kinesis Data Analytics for Apache Flink](https://docs.aws.amazon.com/kinesisanalytics/latest/java/what-is.html) application.
 
 Here's a screenshot of the dashboard:
