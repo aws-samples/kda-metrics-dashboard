@@ -33,7 +33,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 		<kda.version>2.0.0</kda.version>
 		<kda.runtime.version>1.2.0</kda.runtime.version>
 		<scala.binary.version>2.12</scala.binary.version>
-		<avro.version>1.8.1</avro.version>
+		<avro.version>1.11.4</avro.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 	</properties>
